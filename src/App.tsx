@@ -1,19 +1,22 @@
 import React from "react";
 
-import "./App.css";
-
 import MainNav from "./shared/navigation/MainNav";
 import Introduction from "./shared/introduction/Introduction";
 import Conclusion from "./shared/conclusion/Conclusion";
+import CurriculumVitae from "./curriculum-vitae/CurriculumVitae";
+
+import "./App.css";
 
 function App() {
   return (
-    <div className="d-flex flex-column vh-100">
+    <React.Fragment>
       <MainNav />
       <Introduction />
-      <main>Main Works!</main>
+      <main>
+        <CurriculumVitae />
+      </main>
       <Conclusion />
-    </div>
+    </React.Fragment>
   );
 }
 

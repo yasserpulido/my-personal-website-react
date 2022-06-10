@@ -1,9 +1,10 @@
 import "./Introduction.css";
+import logo from "../../assets/images/yasser-pulido.png";
 
 function Introduction() {
   return (
     <div className="intro">
-      <h1 className="intro-title">YASSER PULIDO</h1>
+      <img src={logo} alt="logo" className="w-50" />
     </div>
   );
 }
