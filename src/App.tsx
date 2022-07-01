@@ -5,8 +5,6 @@ import Introduction from "./shared/introduction/Introduction";
 import Conclusion from "./shared/conclusion/Conclusion";
 import CurriculumVitae from "./curriculum-vitae/CurriculumVitae";
 
-import "./App.css";
-
 function App() {
   return (
     <React.Fragment>

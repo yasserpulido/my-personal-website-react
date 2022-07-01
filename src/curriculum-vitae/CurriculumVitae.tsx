@@ -22,7 +22,7 @@ function CurriculumVitae() {
             Kaplan International School
           </h5>
           <h6 className="canvas-section__role">(English Course)</h6>
-          <p>2016 - 2017</p>
+          <span>2016 - 2017</span>
           <p>
             Kaplan helped me to learn and improve my english language and also
             to advance in different level to know which that I am on Common
@@ -39,7 +39,7 @@ function CurriculumVitae() {
             Instituto Universitario Politécnico Santiago Mariño
           </h5>
           <h6 className="canvas-section__role">(Systems Engineering)</h6>
-          <p>2009 - 2016</p>
+          <span>2009 - 2016</span>
           <p>
             Here, I learned about Systems Engineer that deals with the design,
             programming, implementation and maintenance of systems.
@@ -63,7 +63,7 @@ function CurriculumVitae() {
             MAS GLOBAL CONSULTING
           </h5>
           <h6 className="canvas-section__role">(Full Stack Developer)</h6>
-          <p>Jan 2021 to March 2022</p>
+          <span>Jan 2021 to March 2022</span>
           <p>
             Development of solutions for Johnson Controls International as
             client. As a member of Ravens team, we covered five projects:
@@ -86,7 +86,7 @@ function CurriculumVitae() {
             Edenred Argentina S.A.
           </h5>
           <h6 className="canvas-section__role">(Full Stack Developer)</h6>
-          <p>Aug 2020 to Dec 2020</p>
+          <span>Aug 2020 to Dec 2020</span>
           <p>
             Alta is a web application is about to registry new client for the
             different solutions related to employee benefits, meal vouchers,
@@ -106,7 +106,7 @@ function CurriculumVitae() {
             RH Tecnología S.A.
           </h5>
           <h6 className="canvas-section__role">(Full Stack Developer)</h6>
-          <p>Jan 2020 to Jul 2020</p>
+          <span>Jan 2020 to Jul 2020</span>
           <p>
             Development of the new Comercio website to Edenred Argentina S.A. as
             client. The web is about manage the client account, monitor payments
@@ -126,7 +126,7 @@ function CurriculumVitae() {
             Santa Rita de Cascia C.A.
           </h5>
           <h6 className="canvas-section__role">(.NET Developer)</h6>
-          <p>Jan 2016 to Sep 2016</p>
+          <span>Jan 2016 to Sep 2016</span>
           <p>
             Development a Cattle Control software compatible with stick reader
             AllFlex brand. The software was based on WinForms .NET Framework 4.5
@@ -142,7 +142,7 @@ function CurriculumVitae() {
             Solo Sistemas C.A.
           </h5>
           <h6 className="canvas-section__role">(.NET Developer)</h6>
-          <p>Nov 2014 to Dec 2016</p>
+          <span>Nov 2014 to Dec 2016</span>
           <p>
             Development a Source Control and Access Control software based on
             WinForms .NET Framework 4.5 with Visual Studio 2012. SQL Server 2008
@@ -163,7 +163,7 @@ function CurriculumVitae() {
             CryptoLugares
           </h5>
           <h6 className="canvas-section__role">(Front End Developer)</h6>
-          <p>2020</p>
+          <span>2020</span>
           <p>
             Designed the CryptoLugares's website based on React with TypeScript,
             using Bootstrap 4.5 and SCSS.
@@ -265,10 +265,6 @@ function CurriculumVitae() {
                     <FontAwesomeIcon icon={faStar} />
                   </div>
                 </li>
-              </ul>
-            </div>
-            <div className="col-lg-6">
-              <ul className="p-0 m-0 ability-list">
                 <li className="d-flex justify-content-between align-items-center">
                   <span>.NET Core</span>
                   <div>
@@ -277,6 +273,10 @@ function CurriculumVitae() {
                     <FontAwesomeIcon icon={faStar} />
                   </div>
                 </li>
+              </ul>
+            </div>
+            <div className="col-lg-6">
+              <ul className="p-0 m-0 ability-list">
                 <li className="d-flex justify-content-between align-items-center">
                   <span>LINQ</span>
                   <div>
@@ -318,8 +318,25 @@ function CurriculumVitae() {
                   </div>
                 </li>
                 <li className="d-flex justify-content-between align-items-center">
-                  <span>React</span>
+                  <span>React.js</span>
                   <div>
+                    <FontAwesomeIcon icon={faStar} />
+                    <FontAwesomeIcon icon={faStar} />
+                    <FontAwesomeIcon icon={faStar} />
+                  </div>
+                </li>
+                <li className="d-flex justify-content-between align-items-center">
+                  <span>Redux</span>
+                  <div>
+                    <FontAwesomeIcon icon={faStar} />
+                    <FontAwesomeIcon icon={faStar} />
+                    <FontAwesomeIcon icon={faStar} />
+                  </div>
+                </li>
+                <li className="d-flex justify-content-between align-items-center">
+                  <span>Hooks</span>
+                  <div>
+                    <FontAwesomeIcon icon={faStar} />
                     <FontAwesomeIcon icon={faStar} />
                     <FontAwesomeIcon icon={faStar} />
                   </div>
@@ -327,6 +344,7 @@ function CurriculumVitae() {
                 <li className="d-flex justify-content-between align-items-center">
                   <span>Angular</span>
                   <div>
+                    <FontAwesomeIcon icon={faStar} />
                     <FontAwesomeIcon icon={faStar} />
                     <FontAwesomeIcon icon={faStar} />
                   </div>
